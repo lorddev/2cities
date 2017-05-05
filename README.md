@@ -1,4 +1,4 @@
-Tail of 2 Cities
+Two Cities Tail
 ====================
 Log file monitor for Windows 10.
 
