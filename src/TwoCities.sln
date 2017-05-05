@@ -3,17 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26403.7
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoCities.App", "TwoCities.App.csproj", "{253D39B2-F07B-4824-B671-D2A6F0DDB3D1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoCities.App", "TwoCities.App\TwoCities.App.csproj", "{253D39B2-F07B-4824-B671-D2A6F0DDB3D1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6DB7D742-E9B7-4D5F-9DE1-6F17162546B5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{99AE95F6-0F19-4BF9-8609-BF3790FE810B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoCities.Tests", "..\..\test\TwoCities.Tests\TwoCities.Tests.csproj", "{CB62379B-8716-4E92-8ADE-F6B663AF978B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoCities.Tests", "..\test\TwoCities.Tests\TwoCities.Tests.csproj", "{CB62379B-8716-4E92-8ADE-F6B663AF978B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoCities.ConsoleApp", "..\TwoCities.ConsoleApp\TwoCities.ConsoleApp.csproj", "{A6F0BB39-1E4D-40C6-8C08-C28FFA898BF6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoCities.ConsoleApp", "TwoCities.ConsoleApp\TwoCities.ConsoleApp.csproj", "{A6F0BB39-1E4D-40C6-8C08-C28FFA898BF6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoCities.Core", "..\TwoCities.Core\TwoCities.Core.csproj", "{D1DF590D-667C-42CA-8617-079623578AA4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoCities.Core", "TwoCities.Core\TwoCities.Core.csproj", "{D1DF590D-667C-42CA-8617-079623578AA4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

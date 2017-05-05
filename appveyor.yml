@@ -2,9 +2,9 @@ version: 0.1.{build}
 image: Visual Studio 2017
 build_script:
 - ps: >-
-    dotnet restore
+    dotnet restore src\TwoCities.sln
 
-    dotnet msbuild
+    dotnet msbuild src\TwoCities.sln
 test_script:
 - ps: >-
     dotnet test test\TwoCities.Tests\TwoCities.Tests.csproj
