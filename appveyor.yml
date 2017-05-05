@@ -1,0 +1,10 @@
+version: 0.1.{build}
+image: Visual Studio 2017
+build_script:
+- ps: >-
+    dotnet restore
+
+    dotnet msbuild
+test_script:
+- ps: >-
+    dotnet test test\TwoCities.Tests\TwoCities.Tests.csproj
