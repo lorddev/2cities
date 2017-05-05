@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.4</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Devlord.Utilities" Version="5.0.123" />
+    <PackageReference Include="Microsoft.AspNetCore.WebUtilities" Version="1.0.2-rtm-201704200225" />
+  </ItemGroup>
+
+</Project>
